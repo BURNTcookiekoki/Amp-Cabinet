@@ -14,7 +14,7 @@
 | --- | --- | --- | --- | --- | --- |
 | [All components](https://www.aliexpress.com/item/1005013109922221.html?spm=a2g0o.cart.0.0.6b8838dacKnRFB&mp=1&pdp_npi=6%40dis%21NZD%21NZD+2.49%21NZD+2.49%21%21NZD+2.49%21%21%21%402103128817917773785996722e0e19%2112000060292828765%21ct%21NZ%216506842476%21%211%210%21) | In BOM Github | 1 | $75.59 | $75.59 | [Jaycar nz, Aliexpress](https://www.aliexpress.com/item/1005013109922221.html?spm=a2g0o.cart.0.0.6b8838dacKnRFB&mp=1&pdp_npi=6%40dis%21NZD%21NZD+2.49%21NZD+2.49%21%21NZD+2.49%21%21%21%402103128817917773785996722e0e19%2112000060292828765%21ct%21NZ%216506842476%21%211%210%21) |
 | **Parts subtotal** | — | — | — | **$75.59** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$75.59** | — |
+| **Tax & shipping** | — | — | — | **$27.20** | — |
+| **Total** | — | — | — | **$102.79** | — |
 
-$24.41 left of the tier's funding.
+**$2.79 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
