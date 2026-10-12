@@ -8,13 +8,13 @@
 
 | Week | Tier | Parts funding |
 | --- | --- | --- |
-| Week 1 | Tier 3 | $100.00 |
+| Week 1 | Tier 2 | $65.00 |
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [All components](https://www.aliexpress.com/item/1005013109922221.html?spm=a2g0o.cart.0.0.6b8838dacKnRFB&mp=1&pdp_npi=6%40dis%21NZD%21NZD+2.49%21NZD+2.49%21%21NZD+2.49%21%21%21%402103128817917773785996722e0e19%2112000060292828765%21ct%21NZ%216506842476%21%211%210%21) | In BOM Github | 1 | $75.59 | $75.59 | [Jaycar nz, Aliexpress](https://www.aliexpress.com/item/1005013109922221.html?spm=a2g0o.cart.0.0.6b8838dacKnRFB&mp=1&pdp_npi=6%40dis%21NZD%21NZD+2.49%21NZD+2.49%21%21NZD+2.49%21%21%21%402103128817917773785996722e0e19%2112000060292828765%21ct%21NZ%216506842476%21%211%210%21) |
 | **Parts subtotal** | — | — | — | **$75.59** | — |
-| **Tax & shipping** | — | — | — | **$20.00** | — |
-| **Total** | — | — | — | **$95.59** | — |
+| **Tax & shipping** | — | — | — | **$0.00** | — |
+| **Total** | — | — | — | **$75.59** | — |
 
-$4.41 left of the tier's funding.
+**$10.59 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
