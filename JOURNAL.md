@@ -4,9 +4,9 @@
 <!-- Generated: 2026-10-10T06:51:25.994Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuur3kh909pm01smdlad6bdz). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A cabinet speaker with a screen with multiple options
+> A cabinet speaker which uses 2 50w 8 ohmes speakers which is powered by a amp board. This amp will use 1/4" input a has 1 10k pot as its master volume and will use a preamp board for boosting guitar sounds.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
