@@ -1,0 +1,1836 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\kota7\\Downloads\\Guitar amp Cab\\Guitar amp Cab\\Guitar amp Cab.kicad_sch")
+		(date "2026-10-22T09:29:39")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "Guitar amp Cab.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "1,50W,8Ω1")
+			(value "Speaker")
+			(description "Speaker")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Speaker")
+			)
+			(libsource
+				(lib "Device")
+				(part "Speaker")
+				(description "Speaker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "speaker sound")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e05c8de6-7a28-4dee-a6c1-5a7447d2dcf6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "1/4\"Input1")
+			(value "Mono 6.35mm")
+			(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical")
+			(datasheet "https://www.neutrik.com/en/product/nj2fd-v")
+			(description "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical")
+				(field
+					(name "Datasheet") "https://www.neutrik.com/en/product/nj2fd-v")
+				(field
+					(name "Description") "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)")
+			)
+			(libsource
+				(lib "Connector_Audio")
+				(part "NJ2FD-V")
+				(description "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "audio jack receptacle mono phone headphone TS connector neutrik")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jack*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b97c19ca-3a64-4eba-a06e-98acd5d697b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "S")
+						)
+						(pin
+							(num "T")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "2,50W,8Ω2")
+			(value "Speaker")
+			(description "Speaker")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Speaker")
+			)
+			(libsource
+				(lib "Device")
+				(part "Speaker")
+				(description "Speaker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "speaker sound")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "14dd068a-c987-4cdc-afd1-e780beab4657")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "A100K1")
+			(value "A100K Pot")
+			(footprint "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical")
+			(description "Potentiometer")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Type") "POT")
+				(field
+					(name "Sim.Pins") "1=r0 2=wiper 3=r1")
+				(field
+					(name "Footprint") "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Potentiometer")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Potentiometer")
+				(description "Potentiometer")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Type")
+				(value "POT")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=r0 2=wiper 3=r1")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resistor variable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Potentiometer*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "785c36ba-2af4-4c7c-9909-cf8e4446a2f2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Converter1")
+			(value "24v to 12v")
+			(footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+			(datasheet "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF")
+			(description "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-220-3_Vertical")
+				(field
+					(name "Datasheet") "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF")
+				(field
+					(name "Description") "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220")
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "LM7812_TO220")
+				(description "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Voltage Regulator 1A Positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO?220*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2834b143-fd3b-422a-81d6-a3a1bfe74f57")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "LED")
+			(footprint "Button_Switch_SMD:Nidec_Copal_CAS-120A")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Button_Switch_SMD:Nidec_Copal_CAS-120A")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fb4b70bc-d6f7-4ad8-8230-63eb8b42b840")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Jack-DC")
+			(footprint "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal")
+			(description "DC Barrel Jack")
+			(fields
+				(field
+					(name "Footprint") "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DC Barrel Jack")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Jack-DC")
+				(description "DC Barrel Jack")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "DC power barrel jack connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "BarrelJack*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5a178b70-2fd7-402f-a55c-a8831de9a170")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "KC5166Pre-ChampPreamplifier1")
+			(value "Pre Amp")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(description "Generic connector, single row, 01x05, script generated")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x05, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x05_Pin")
+				(description "Generic connector, single row, 01x05, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0d4d92ac-9816-4322-a96e-124084eadb1b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Preamp1")
+			(value "TPA3116D2DAD")
+			(footprint "Package_SO:Texas_DAD0032A_HTSSOP-32_6.1x11mm_P0.65mm_TopEP3.71x3.81mm")
+			(description "50-W stereo, 100-W mono, 4.5- to 26-V supply, analog input Class-D audio amplifier w/ SpeakerGuard™")
+			(fields
+				(field
+					(name "MF") "Texas Instruments")
+				(field
+					(name "Package") "HTSSOP-32 Texas Instruments")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/TPA3116D2DAD/Texas+Instruments/view-part/?ref=eda")
+				(field
+					(name "MAXIMUM_PACKAGE_HIEGHT") "1.15mm")
+				(field
+					(name "STANDARD") "IPC7351B")
+				(field
+					(name "PARTREV") "G")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/TPA3116D2DAD/Texas+Instruments/view-part/?ref=snap")
+				(field
+					(name "MP") "TPA3116D2DAD")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49018&manufacturer=Texas Instruments&part_name=TPA3116D2DAD&search_term=tpa3116d2")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+				(field
+					(name "Footprint") "Package_SO:Texas_DAD0032A_HTSSOP-32_6.1x11mm_P0.65mm_TopEP3.71x3.81mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "50-W stereo, 100-W mono, 4.5- to 26-V supply, analog input Class-D audio amplifier w/ SpeakerGuard™")
+			)
+			(libsource
+				(lib "TPA3116D2DAD")
+				(part "TPA3116D2DAD")
+				(description "50-W stereo, 100-W mono, 4.5- to 26-V supply, analog input Class-D audio amplifier w/ SpeakerGuard™")
+			)
+			(property
+				(name "MF")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Package")
+				(value "HTSSOP-32 Texas Instruments")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/TPA3116D2DAD/Texas+Instruments/view-part/?ref=eda")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HIEGHT")
+				(value "1.15mm")
+			)
+			(property
+				(name "STANDARD")
+				(value "IPC7351B")
+			)
+			(property
+				(name "PARTREV")
+				(value "G")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/TPA3116D2DAD/Texas+Instruments/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "TPA3116D2DAD")
+			)
+			(property
+				(name "Purchase-URL")
+				(value "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49018&manufacturer=Texas Instruments&part_name=TPA3116D2DAD&search_term=tpa3116d2")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0296f945-22d0-43f8-bd62-f1fede9baad8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "28")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "SW_Nidec_CAS-120A1")
+			(footprint "Button_Switch_SMD:Nidec_Copal_CAS-120A")
+			(datasheet "https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:Nidec_Copal_CAS-120A")
+				(field
+					(name "Datasheet") "https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Nidec_CAS-120A1")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Guitar amp Cab.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*Nidec?Copal?CAS?120A*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "30bba40c-888f-46c2-9c6e-8e004a949c17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups
+		(group
+			(name "")
+			(uuid "/113389df-885e-4bae-8f67-aa81406ae463")
+			(lib_id "")
+			(members
+				(member
+					(uuid "/0d4d92ac-9816-4322-a96e-124084eadb1b")
+				)
+			)
+		)
+	)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x05_Pin")
+			(description "Generic connector, single row, 01x05, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x05_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x05, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Jack-DC")
+			(description "DC Barrel Jack")
+			(footprints
+				(fp "BarrelJack*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Jack-DC")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DC Barrel Jack")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Audio")
+			(part "NJ2FD-V")
+			(description "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)")
+			(docs "https://www.neutrik.com/en/product/nj2fd-v")
+			(footprints
+				(fp "Jack*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "NJ2FD-V")
+				(field
+					(name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical")
+				(field
+					(name "Datasheet") "https://www.neutrik.com/en/product/nj2fd-v")
+				(field
+					(name "Description") "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)")
+			)
+			(pins
+				(pin
+					(num "S")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "T")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R_Potentiometer")
+			(description "Potentiometer")
+			(footprints
+				(fp "Potentiometer*")
+			)
+			(fields
+				(field
+					(name "Reference") "RV")
+				(field
+					(name "Value") "R_Potentiometer")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Potentiometer")
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Type") "POT")
+				(field
+					(name "Sim.Pins") "1=r0 2=wiper 3=r1")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Speaker")
+			(description "Speaker")
+			(fields
+				(field
+					(name "Reference") "LS")
+				(field
+					(name "Value") "Speaker")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Speaker")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "LM7812_TO220")
+			(description "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220")
+			(docs "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF")
+			(footprints
+				(fp "TO?220*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "LM7812_TO220")
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-220-3_Vertical")
+				(field
+					(name "Datasheet") "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF")
+				(field
+					(name "Description") "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VI")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "VO")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Nidec_CAS-120A1")
+			(description "Switch, single pole double throw")
+			(docs "https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+			(footprints
+				(fp "*Nidec?Copal?CAS?120A*")
+			)
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Nidec_CAS-120A1")
+				(field
+					(name "Footprint") "Button_Switch_SMD:Nidec_Copal_CAS-120A")
+				(field
+					(name "Datasheet") "https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "TPA3116D2DAD")
+			(part "TPA3116D2DAD")
+			(description "50-W stereo, 100-W mono, 4.5- to 26-V supply, analog input Class-D audio amplifier w/ SpeakerGuard™")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPA3116D2DAD")
+				(field
+					(name "Footprint") "TPA3116D2DAD:SOP65P810X115-32N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "50-W stereo, 100-W mono, 4.5- to 26-V supply, analog input Class-D audio amplifier w/ SpeakerGuard™")
+				(field
+					(name "MF") "Texas Instruments")
+				(field
+					(name "Package") "HTSSOP-32 Texas Instruments")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/TPA3116D2DAD/Texas+Instruments/view-part/?ref=eda")
+				(field
+					(name "MAXIMUM_PACKAGE_HIEGHT") "1.15mm")
+				(field
+					(name "STANDARD") "IPC7351B")
+				(field
+					(name "PARTREV") "G")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/TPA3116D2DAD/Texas+Instruments/view-part/?ref=snap")
+				(field
+					(name "MP") "TPA3116D2DAD")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49018&manufacturer=Texas Instruments&part_name=TPA3116D2DAD&search_term=tpa3116d2")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "MODSEL")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "SDZ")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "FAULTZ")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "RINP")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "RINN")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "PLIMIT")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "GVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "GAIN/SLV")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "GND_9")
+					(type "power_in")
+				)
+				(pin
+					(num "10")
+					(name "LINP")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "LINN")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "MUTE")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "AM2")
+					(type "input")
+				)
+				(pin
+					(num "14")
+					(name "AM1")
+					(type "input")
+				)
+				(pin
+					(num "15")
+					(name "AM0")
+					(type "input")
+				)
+				(pin
+					(num "16")
+					(name "SYNC")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "AVCC")
+					(type "power_in")
+				)
+				(pin
+					(num "18")
+					(name "PVCC_18")
+					(type "power_in")
+				)
+				(pin
+					(num "19")
+					(name "PVCC_19")
+					(type "power_in")
+				)
+				(pin
+					(num "20")
+					(name "BSNL")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "OUTNL")
+					(type "output")
+				)
+				(pin
+					(num "22")
+					(name "GND_22")
+					(type "power_in")
+				)
+				(pin
+					(num "23")
+					(name "OUTPL")
+					(type "output")
+				)
+				(pin
+					(num "24")
+					(name "BSPL")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "GND_25")
+					(type "power_in")
+				)
+				(pin
+					(num "26")
+					(name "BSNR")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "OUTNR")
+					(type "output")
+				)
+				(pin
+					(num "28")
+					(name "GND_28")
+					(type "power_in")
+				)
+				(pin
+					(num "29")
+					(name "OUTPR")
+					(type "output")
+				)
+				(pin
+					(num "30")
+					(name "BSPR")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "PVCC_31")
+					(type "power_in")
+				)
+				(pin
+					(num "32")
+					(name "PVCC_32")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Connector_Audio")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Audio.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Regulator_Linear")
+			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+		(library
+			(logical "TPA3116D2DAD")
+			(uri "C:/Users/kota7/Downloads/TPA3116D2DAD/TPA3116D2DAD.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+24V")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/Input")
+			(class "Default")
+			(node
+				(ref "1/4\"Input1")
+				(pin "T")
+				(pintype "passive")
+			)
+			(node
+				(ref "KC5166Pre-ChampPreamplifier1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/MIC")
+			(class "Default")
+			(node
+				(ref "KC5166Pre-ChampPreamplifier1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/Out")
+			(class "Default")
+			(node
+				(ref "A100K1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "KC5166Pre-ChampPreamplifier1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/Power 12v+")
+			(class "Default")
+			(node
+				(ref "Converter1")
+				(pin "3")
+				(pinfunction "VO_3")
+				(pintype "power_out")
+			)
+			(node
+				(ref "KC5166Pre-ChampPreamplifier1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "1,50W,8Ω1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "input")
+			)
+			(node
+				(ref "1/4\"Input1")
+				(pin "S")
+				(pintype "passive")
+			)
+			(node
+				(ref "2,50W,8Ω2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "input")
+			)
+			(node
+				(ref "A100K1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Converter1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "KC5166Pre-ChampPreamplifier1")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "22")
+				(pinfunction "GND_22_22")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "25")
+				(pinfunction "GND_25_25")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "28")
+				(pinfunction "GND_28_28")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "7")
+				(pinfunction "GVDD_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "9")
+				(pinfunction "GND_9_9")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "7")
+			(name "Net-(Converter1-VI)")
+			(class "Default")
+			(node
+				(ref "Converter1")
+				(pin "1")
+				(pinfunction "VI_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "17")
+				(pinfunction "AVCC_17")
+				(pintype "power_in")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "Net-(Preamp1-LINN)")
+			(class "Default")
+			(node
+				(ref "A100K1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "11")
+				(pinfunction "LINN_11")
+				(pintype "input")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "5")
+				(pinfunction "RINN_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(Preamp1-OUTNL)")
+			(class "Default")
+			(node
+				(ref "1,50W,8Ω1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "21")
+				(pinfunction "OUTNL_21")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(Preamp1-OUTNR)")
+			(class "Default")
+			(node
+				(ref "2,50W,8Ω2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "Preamp1")
+				(pin "27")
+				(pinfunction "OUTNR_27")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "11")
+			(name "unconnected-(Preamp1-AM0-Pad15)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "15")
+				(pinfunction "AM0_15")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "unconnected-(Preamp1-AM1-Pad14)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "14")
+				(pinfunction "AM1_14")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(Preamp1-AM2-Pad13)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "13")
+				(pinfunction "AM2_13")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(Preamp1-BSNL-Pad20)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "20")
+				(pinfunction "BSNL_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(Preamp1-BSNR-Pad26)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "26")
+				(pinfunction "BSNR_26")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(Preamp1-BSPL-Pad24)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "24")
+				(pinfunction "BSPL_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(Preamp1-BSPR-Pad30)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "30")
+				(pinfunction "BSPR_30")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(Preamp1-FAULTZ-Pad3)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "3")
+				(pinfunction "FAULTZ_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(Preamp1-GAIN{slash}SLV-Pad8)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "8")
+				(pinfunction "GAIN/SLV_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(Preamp1-LINP-Pad10)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "10")
+				(pinfunction "LINP_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(Preamp1-MODSEL-Pad1)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "1")
+				(pinfunction "MODSEL_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(Preamp1-MUTE-Pad12)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "12")
+				(pinfunction "MUTE_12")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(Preamp1-OUTPL-Pad23)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "23")
+				(pinfunction "OUTPL_23")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(Preamp1-OUTPR-Pad29)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "29")
+				(pinfunction "OUTPR_29")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(Preamp1-PLIMIT-Pad6)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "6")
+				(pinfunction "PLIMIT_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(Preamp1-PVCC_18-Pad18)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "18")
+				(pinfunction "PVCC_18_18")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(Preamp1-PVCC_19-Pad19)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "19")
+				(pinfunction "PVCC_19_19")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(Preamp1-PVCC_31-Pad31)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "31")
+				(pinfunction "PVCC_31_31")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(Preamp1-PVCC_32-Pad32)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "32")
+				(pinfunction "PVCC_32_32")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(Preamp1-RINP-Pad4)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "4")
+				(pinfunction "RINP_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(Preamp1-SDZ-Pad2)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "2")
+				(pinfunction "SDZ_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(Preamp1-SYNC-Pad16)")
+			(class "Default")
+			(node
+				(ref "Preamp1")
+				(pin "16")
+				(pinfunction "SYNC_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(SW1-A-Pad3)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "passive")
+			)
+		)
+	)
+)
