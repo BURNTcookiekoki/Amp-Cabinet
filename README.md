@@ -1,13 +1,13 @@
 # My Amp-Cabinet
 
-This amp Cabinet features 2 50w 8Ω speaker controlled by a A10K pot and only needs a 24v 6a power supply. From this power supply it also powers a usb A 5v to control pedal boards
+This amp Cabinet features 2 50w 8Ω speaker controlled by a A10K pot and only needs a 24v 6a power supply. 
 
 # Features
-5v usb output
 100w speaker cab
 A10K master volume
 
-I created this project because from my current amp I can not play in venues so I wanted a cheaper alternative which will be able to play in small venues
+I created this project because from my current amp I can not play in venues so I wanted a cheaper alternative which will be able to play in small venues.
+this project uses a 24v by 6a power supply to power the speakers, and later on this project will get a guitar amp head when I make this on forge. This project will require cutting wood boards and 3d printing as well as soldering.
 
 
 # CAD ( step in zip file, too big for upload)
